@@ -1,0 +1,2 @@
+#/bin/sh
+gcc -std=c99 -o test.o -D TESTING -I /home/andre/prog/pic/_apps/ElectronicTimer.X/_test -I /home/andre/prog/pic/_apps/ElectronicTimer.X xc.c test.c ../buttons.c ../lcd.c ../dateTime.c ../timerUi.c ../timer.c seatest.c && /home/andre/prog/pic/_apps/ElectronicTimer.X/_test/test.o
