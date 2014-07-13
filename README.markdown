@@ -23,3 +23,7 @@ E.g.
  - General refactoring
 
 
+Unit tests
+------
+
+The unit tests are written with SeaTest (https://code.google.com/p/seatest/) and can be run with the _test/test bash script.
