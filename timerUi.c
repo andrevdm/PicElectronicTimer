@@ -1381,7 +1381,7 @@ void StatePgm_StatusDisplay( EEventType evt )
     {
         long left = pgm->toggleAt - at;
         char sz[9];
-        sprintf(sz, "%04d", left );
+        sprintf(sz, "%04d", (int)left );
         lcdWriteString(sz);
     }
     else
